@@ -992,3 +992,172 @@ footer {
 .service-link:hover .icon {
     transform: scale(1.12);
 }
+/* ================= SERVICE PAGES ================= */
+
+.service-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.service-link:hover {
+    transform: translateY(-8px);
+}
+
+.service-more {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.service-link:hover .service-more {
+    opacity: 1;
+}
+
+
+/* ================= FULL SERVICE PAGE ================= */
+
+.service-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 120px 24px 80px;
+}
+
+
+/* Hero */
+
+.service-hero {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 80px;
+}
+
+.service-hero h1 {
+    font-size: clamp(42px, 7vw, 80px);
+    line-height: 1;
+    margin: 15px 0 25px;
+}
+
+.service-intro {
+    font-size: 20px;
+    line-height: 1.7;
+    opacity: 0.75;
+    margin-bottom: 35px;
+}
+
+
+/* Content */
+
+.service-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.service-content h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.service-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+
+
+/* Service box */
+
+.service-box {
+    padding: 35px;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px;
+    background: rgba(255,255,255,0.03);
+}
+
+.service-box h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.service-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-box li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+
+/* CTA */
+
+.service-cta {
+    text-align: center;
+    margin-top: 100px;
+    padding: 60px 25px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.04);
+}
+
+.service-cta h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.service-cta p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+
+/* Back button */
+
+.back-link {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.back-link:hover {
+    opacity: 1;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .service-page {
+        padding: 100px 20px 60px;
+    }
+
+    .service-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .service-content h2 {
+        font-size: 30px;
+    }
+
+    .service-cta h2 {
+        font-size: 28px;
+    }
+
+    .navbar {
+        padding: 18px 20px;
+    }
+
+}
