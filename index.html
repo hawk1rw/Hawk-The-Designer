@@ -230,242 +230,65 @@
 
 </section>
 
-        <!-- ================= PORTFOLIO ================= -->
-        <section id="work" class="section work-section">
+     <!-- ================= PORTFOLIO ================= -->
 
-            <div class="section-heading">
+<section id="portfolio" class="section">
 
-                <p class="eyebrow">
-                    SELECTED PROJECTS
-                </p>
+    <div class="section-heading">
 
-                <h2>
-                    My portfolio
-                </h2>
+        <p class="eyebrow">
+            MY WORK
+        </p>
 
-                <p>
-                    Replace these sample cards with your real projects.
-                </p>
+        <h2>
+            Selected projects
+        </h2>
 
-            </div>
+        <p>
+            Explore my latest design and motion projects.
+        </p>
 
+    </div>
 
-            <!-- Portfolio filters -->
-            <div class="filters">
 
-                <button
-                    class="filter active"
-                    data-filter="all">
-                    All
-                </button>
+    <!-- Portfolio filters -->
 
-                <button
-                    class="filter"
-                    data-filter="logo">
-                    Logos
-                </button>
+    <div class="portfolio-filters">
 
-                <button
-                    class="filter"
-                    data-filter="flyer">
-                    Flyers
-                </button>
+        <button class="filter-btn active" data-filter="all">
+            All
+        </button>
 
-                <button
-                    class="filter"
-                    data-filter="banner">
-                    Banners
-                </button>
+        <button class="filter-btn" data-filter="logos">
+            Logos
+        </button>
 
-                <button
-                    class="filter"
-                    data-filter="video">
-                    Video
-                </button>
+        <button class="filter-btn" data-filter="flyers">
+            Flyers
+        </button>
 
-            </div>
+        <button class="filter-btn" data-filter="banners">
+            Banners
+        </button>
 
+        <button class="filter-btn" data-filter="videos">
+            Videos
+        </button>
 
-            <!-- Portfolio projects -->
-            <div class="portfolio-grid">
+    </div>
 
-                <!-- Project 1 -->
-                <article
-                    class="project"
-                    data-category="logo">
 
-                    <div class="project-image">
-    <img src="images/logo1.jpg" alt="Logo Design Project">
-</div>
+    <!-- Dynamic gallery -->
 
-                    <div class="project-info">
+    <div id="portfolio-gallery" class="portfolio-grid">
 
-                        <h3>
-                            Brand Identity
-                        </h3>
+        <div class="portfolio-loading">
+            Loading my work...
+        </div>
 
-                        <p>
-                            Logo Design
-                        </p>
+    </div>
 
-                    </div>
-
-                </article>
-
-
-                <!-- Project 2 -->
-                <article
-                    class="project"
-                    data-category="flyer">
-
-                    <div class="project-image gradient-two">
-
-                        <span>
-                            FLYER
-                            <br>
-                            PROJECT 02
-                        </span>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <h3>
-                            Event Promotion
-                        </h3>
-
-                        <p>
-                            Flyer Design
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 3 -->
-                <article
-                    class="project"
-                    data-category="banner">
-
-                    <div class="project-image gradient-three">
-
-                        <span>
-                            BANNER
-                            <br>
-                            PROJECT 03
-                        </span>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <h3>
-                            Social Campaign
-                        </h3>
-
-                        <p>
-                            Banner Design
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 4 -->
-                <article
-                    class="project"
-                    data-category="logo">
-
-                    <div class="project-image gradient-four">
-
-                        <span>
-                            LOGO
-                            <br>
-                            PROJECT 04
-                        </span>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <h3>
-                            Modern Logo
-                        </h3>
-
-                        <p>
-                            Logo Design
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 5 -->
-                <article
-                    class="project"
-                    data-category="flyer">
-
-                    <div class="project-image gradient-five">
-
-                        <span>
-                            POSTER
-                            <br>
-                            PROJECT 05
-                        </span>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <h3>
-                            Business Promo
-                        </h3>
-
-                        <p>
-                            Poster Design
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 6 -->
-                <article
-                    class="project"
-                    data-category="video">
-
-                    <div class="project-image gradient-six">
-
-                        <span>
-                            ▶
-                            <br>
-                            VIDEO INTRO
-                        </span>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <h3>
-                            Logo Animation
-                        </h3>
-
-                        <p>
-                            Motion Intro
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
+</section>
 
         <!-- ================= ABOUT ================= -->
         <section id="about" class="section about">
@@ -612,8 +435,11 @@
     </footer>
 
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+   <!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Your JavaScript -->
+<script src="script.js"></script>
 <!-- ================= FLOATING CONTACT BUTTONS ================= -->
 
 <div class="floating-contact">
